@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.aviary.wp.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res/com.aviary.wp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+    android:background="@android:color/transparent"
+
+    aviary:startPadding="@dimen/workspace_start_padding"
+    aviary:endPadding="@dimen/workspace_end_padding"
+    aviary:horizontalPadding="@dimen/workspace_cell_horizontal_padding"
+    aviary:verticalPadding="@dimen/workspace_cell_vertical_padding"
+    aviary:topPadding="@dimen/workspace_top_padding"
+    aviary:bottomPadding="@dimen/workspace_bottom_padding"
+    aviary:cells="@integer/config_portraitCells"
+    aviary:rows="@integer/config_portraitRows" />

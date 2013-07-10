@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, TestWorkspaceActivity!</string>
+    <string name="app_name">TestWorkspace</string>
+	<string name="all_apps_button_label">All applications</string>
+</resources>
